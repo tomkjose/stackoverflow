@@ -9,6 +9,7 @@
 .nav__searchContainer {
   display: flex;
   align-items: center;
+  margin-left: 12rem;
 }
 
 .nav__searchbox {
@@ -37,6 +38,7 @@
   display: flex;
   align-items: center;
   color: #a3a3a3;
+  cursor: pointer;
 }
 
 .nav__text {
@@ -46,10 +48,17 @@
 .nav__user {
   display: flex;
   align-items: center;
+  cursor: pointer;
   gap: 0.4rem;
 }
 
 ::placeholder {
   font-size: 1.2rem;
   color: #d8d8d8;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav__searchContainer {
+    margin-left: 5rem;
+  }
 }

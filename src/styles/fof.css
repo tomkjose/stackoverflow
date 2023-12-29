@@ -1,0 +1,33 @@
+.fof {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fof_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fof_image {
+  width: 10rem;
+}
+
+.fof_message {
+  margin: 1rem 0;
+}
+
+.fof_button {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.fof_button:hover {
+  background-color: rgb(202, 131, 0);
+}

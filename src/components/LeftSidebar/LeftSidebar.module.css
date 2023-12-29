@@ -1,10 +1,15 @@
 .LeftSidebar {
+  position: -webkit-sticky;
   position: sticky;
-  margin-left: 2rem;
+  padding-right: 1rem;
+  top: 0;
+  height: 100vh;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   width: 10rem;
+  padding-top: 1rem;
 }
 
 .left_navbar {
@@ -24,7 +29,14 @@
 }
 
 .left_navbar_text {
-  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.left_navbar_inboxcount {
+  color: orange;
+  border: 1px solid #a3a3a3;
+  border-radius: 100%;
+  padding: 0.4rem 0.6rem;
 }
 
 .left_navbar_list:hover {
@@ -38,8 +50,18 @@
   color: orange;
 }
 
+.left_navbar_super {
+  color: orange;
+  text-transform: uppercase;
+  padding-left: 0.4rem;
+}
+
 @media only screen and (max-width: 1200px) {
   .left_navbar_text {
     display: none;
+  }
+  .logo {
+    width: 2rem;
+    content: url(" https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png");
   }
 }

@@ -22,15 +22,15 @@ function Footer() {
         </div>
         <div className={styles.footer__nav__social}>
           <i
-            class="fa-brands fa-twitter"
+            className="fa-brands fa-twitter"
             style={{ color: "#a3a3a3", cursor: "pointer" }}
           ></i>
           <i
-            class="fa-brands fa-facebook"
+            className="fa-brands fa-facebook"
             style={{ color: "#a3a3a3", cursor: "pointer" }}
           ></i>
           <i
-            class="fa-brands fa-dribbble"
+            className="fa-brands fa-dribbble"
             style={{ color: "#a3a3a3", cursor: "pointer" }}
           ></i>
         </div>

@@ -11,43 +11,47 @@ function LeftSidebar() {
       <div className={styles.left_navbar}>
         <li className={styles.left_navbar_list}>
           {" "}
-          <i class="fa-solid fa-question"></i>
+          <i className="fa-solid fa-question"></i>
           <p className={styles.left_navbar_text}>Questions</p>
         </li>
         <li className={styles.left_navbar_list}>
-          <i class="fa-solid fa-suitcase"></i>{" "}
+          <i className="fa-solid fa-suitcase"></i>{" "}
           <p className={styles.left_navbar_text}>Jobs</p>
         </li>
         <li className={styles.left_navbar_list}>
           {" "}
-          <i class="fa-regular fa-file"></i>{" "}
-          <p className={styles.left_navbar_text}>Documentation</p>
+          <i className="fa-regular fa-file"></i>{" "}
+          <p className={styles.left_navbar_text}>
+            Documentation <sup className={styles.left_navbar_super}>New</sup>
+          </p>
         </li>
         <li className={styles.left_navbar_list}>
           {" "}
-          <i class="fa-solid fa-tag"></i>{" "}
+          <i className="fa-solid fa-tag"></i>{" "}
           <p className={styles.left_navbar_text}>Tags</p>
         </li>
         <li className={styles.left_navbar_list}>
-          <i class="fa-solid fa-user"></i>{" "}
+          <i className="fa-solid fa-user"></i>{" "}
           <p className={styles.left_navbar_text}>Users</p>
         </li>
         <li className={styles.left_navbar_list}>
-          <i class="fa-regular fa-bookmark"></i>{" "}
+          <i className="fa-regular fa-bookmark"></i>{" "}
           <p className={styles.left_navbar_text}>Badges</p>
         </li>
         <li className={styles.left_navbar_list}>
           {" "}
-          <i class="fa-solid fa-bullhorn"></i>{" "}
+          <i className="fa-solid fa-bullhorn"></i>{" "}
           <p className={styles.left_navbar_text}>Ask Questions</p>
         </li>
         <li className={styles.left_navbar_list}>
-          <i class="fa-brands fa-stack-exchange"></i>{" "}
+          <i className="fa-brands fa-stack-exchange"></i>{" "}
           <p className={styles.left_navbar_text}>Stack Exchange</p>
         </li>
         <li className={styles.left_navbar_list}>
-          <i class="fa-solid fa-inbox" style={{}}></i>{" "}
-          <p className={styles.left_navbar_text}>Inbox</p>
+          <i className="fa-solid fa-inbox" style={{}}></i>{" "}
+          <p className={styles.left_navbar_text}>
+            Inbox <span className={styles.left_navbar_inboxcount}>24</span>
+          </p>
         </li>
       </div>
     </div>
