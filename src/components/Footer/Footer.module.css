@@ -1,0 +1,132 @@
+.footer {
+  padding: 1rem 2rem;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+
+.footer__nav__links {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+
+.footer__nav__items {
+  color: #a3a3a3;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.footer__nav__social {
+  display: flex;
+  gap: 0.4rem;
+}
+
+hr {
+  background-color: #e2e2e2;
+  color: #e2e2e2;
+  height: 1px;
+}
+
+.footer_category_submenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__technology {
+  flex-grow: 2;
+}
+
+.footer__text {
+  margin: 2rem;
+  color: #a3a3a3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_category_links {
+  display: flex;
+  margin: 2rem;
+}
+
+.footer_category_heading {
+  color: #b8b7b7;
+  text-transform: uppercase;
+}
+
+.footer_category_items {
+  display: flex;
+  align-items: space-evenly;
+  flex-direction: column;
+  width: 100%;
+}
+
+.footer_category_sublist {
+  display: flex;
+  flex-direction: column;
+  color: #b8b7b7;
+  padding-top: 1rem;
+}
+
+.footer_category_subitems {
+  list-style: none;
+  padding: 0.4rem 0;
+  cursor: pointer;
+}
+
+.more {
+  color: #848484;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer__nav {
+    flex-direction: column;
+  }
+  .footer__nav__links {
+    flex-direction: column;
+  }
+
+  .footer__nav__social {
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_category_links {
+    flex-direction: column;
+  }
+
+  .footer_category_sublist {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6rem;
+  }
+  .footer__category_items {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  .footer_category_submenu {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__maintext {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    font-size: 10px;
+  }
+}
