@@ -5,6 +5,7 @@
   top: 0;
   height: 100vh;
   box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
 .logo {

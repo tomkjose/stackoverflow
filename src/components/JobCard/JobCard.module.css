@@ -1,0 +1,107 @@
+.jobcard {
+  padding: 1rem;
+}
+
+.job_title {
+  color: #ebedf5;
+  font-size: 6.4rem;
+  position: relative;
+  font-weight: 900;
+}
+
+.job_sub_title {
+  color: #a3a3a3;
+  position: relative;
+  top: -70px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding-left: 0.8rem;
+}
+
+.job_progress_point {
+  background: #f0f1f3;
+  position: relative;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  border-radius: 100%;
+  color: #f0f1f3;
+  text-align: center;
+  box-shadow: 0 0 0 3px #a3a3a3;
+}
+
+.job_progress_point::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  top: 1px;
+  right: 50%;
+  bottom: 1px;
+  left: 50%;
+  height: 100%;
+  width: 1px;
+  transform: scale(1, 2);
+  transform-origin: 50% -100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: -1;
+}
+
+.job_detail_title {
+  color: rgb(52, 167, 224);
+}
+
+.job_detail_description {
+  color: #a3a3a3;
+  padding-bottom: 0.6rem;
+}
+
+.job_detail_main {
+  border-left: 1px solid #a3a3a3;
+  padding: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
+  margin: 0.8rem;
+  position: relative;
+}
+
+.job_location {
+  color: #a3a3a3;
+}
+
+.job_tags {
+  display: flex;
+}
+
+.job_tag {
+  color: #a3a3a3;
+  margin: 0.4rem;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  border: 1px solid #a3a3a3;
+}
+
+.job_salary {
+  padding-bottom: 0.6rem;
+  color: rgb(1, 223, 1);
+}
+
+.job_view {
+  color: rgb(52, 167, 224);
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.job_checked {
+  box-shadow: 0 0 0 3px rgb(52, 167, 224);
+}
+
+.job_saved {
+  text-transform: uppercase;
+  padding: 0.6rem;
+  box-shadow: 5px 0 10px rgba(0, 0, 0, 0.1);
+  color: #a3a3a3;
+  background-color: white;
+  width: fit-content;
+  position: absolute;
+  left: -30px;
+  top: 60px;
+}
